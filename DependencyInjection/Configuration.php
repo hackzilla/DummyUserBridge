@@ -19,19 +19,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('hackzilla_dummyuser');
-
-        /*
-          $rootNode
-          ->children()
-          ->arrayNode('permissions')
-          ->useAttributeAsKey('name')
-          ->prototype('array')
-          ->prototype('scalar')->end()
-          ->end()
-          ->end()
-          ->end();
-         */
+        $treeBuilder->root('hackzilla_dummyuser');
 
         return $treeBuilder;
     }
