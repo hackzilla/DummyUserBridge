@@ -2,6 +2,7 @@
     "name": "hackzilla/dummyuser-bridge-bundle",
     "description": "Glue for DummyUserBundle",
     "license": "MIT",
+    "type": "symfony-bundle",
     "authors": [
         {
             "name": "Daniel Platt",
